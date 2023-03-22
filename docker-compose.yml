@@ -1,0 +1,23 @@
+version: "2.3"
+services:
+  fluentbit:
+    image: fluent/fluent-bit:1.7.2
+    container_name: fluentbit
+    command: "/fluent-bit/bin/fluent-bit -c /configs/config.conf"
+    ports:
+      - "24224:24224/tcp"
+      - "24224:24224/udp"
+    volumes:
+      - ./conf/config.conf:/configs/config.conf
+      - ./conf/parsers.conf:/configs/parsers.conf
+  node-logger:
+    build:
+      context: ./services/node-logger
+    volumes:
+      - ./config.json:/app/config.json
+    ports:
+      - "8081:8081"
+    logging:
+      driver: fluentd
+    depends_on:
+      - "fluentbit"

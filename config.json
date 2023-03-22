@@ -1,0 +1,89 @@
+{
+  "roomId": 50,
+  "name": "Flourish Room",
+  "kinectId": "000557922712",
+  "aspectRatio": "AR16x9",
+  "calibration": {
+    "menuHorizontalOffset": 0,
+    "menuVerticalOffset": 0,
+    "rootFontSize": null,
+    "voicePorcupineSensitivity": 0.5,
+    "voiceRhinoSensitivity": 0.5
+  },
+  "analytics": {
+    "mixpanelProjectToken": "3fa4eb38b66c135344ea2b6ebd2babb8",
+    "mixpanelProjectId": "2903049"
+  },
+  "light": {
+    "hueBridgeUsername": "IrPYKQICIAt1cLIuHpoMmXMhY8UfTPGeuV681Rea",
+    "hueBridgeIP": "http://0.0.0.0"
+  },
+  "media": [
+    {
+      "order": 1,
+      "brightnessOverride": null,
+      "hidden": false,
+      "name": "oceanFlow"
+    },
+    {
+      "order": 2,
+      "brightnessOverride": null,
+      "hidden": false,
+      "name": "colorChorus"
+    },
+    {
+      "order": 3,
+      "brightnessOverride": null,
+      "hidden": false,
+      "name": "starlight"
+    },
+    {
+      "order": 4,
+      "brightnessOverride": null,
+      "hidden": false,
+      "name": "cosmicWaves"
+    },
+    {
+      "order": 5,
+      "brightnessOverride": null,
+      "hidden": false,
+      "name": "redwoodForest"
+    },
+    {
+      "order": 6,
+      "brightnessOverride": null,
+      "hidden": false,
+      "name": "renewalFalls"
+    },
+    {
+      "order": 7,
+      "brightnessOverride": null,
+      "hidden": false,
+      "name": "goldenCliffs"
+    },
+    {
+      "order": 8,
+      "brightnessOverride": null,
+      "hidden": false,
+      "name": "serenityBeach"
+    },
+    {
+      "order": 9,
+      "brightnessOverride": null,
+      "hidden": false,
+      "name": "mistyLake"
+    },
+    {
+      "order": 10,
+      "brightnessOverride": null,
+      "hidden": false,
+      "name": "campfireCape"
+    },
+    {
+      "order": -1,
+      "brightnessOverride": null,
+      "hidden": true,
+      "name": "menu"
+    }
+  ]
+}
